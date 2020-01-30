@@ -17,9 +17,18 @@ export default class Authors extends Component {
     render() {
         return (
             <div>
+                <h1 className="text-center text-info">List of Authors</h1>
+                <ul className="list-group">
                 {this.state.authors.map(author => 
-                    <li key={author.id}>{author.name}</li>    
+                <div style={{textAlign: "left"}} key={author.id}>
+                    <li className="list-group-item">{author.name}</li>
+                    <li className="list-group-item">{author.address}</li>
+                    <li className="list-group-item">{author.site === null || author.site.trim() === '' ? 'Not Informed' : author.site}</li>
+                    <li className="list-group-item">{author.email}</li>
+                    <br />
+                </div>
                 )}
+                </ul>
             </div>
         )
     }
