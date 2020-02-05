@@ -2,9 +2,7 @@
 Demonstração de front-end em ReactJs com Bootstrap e Axios consumindo API back-end em Django Rest Framework para buscar Autores: /  
 Front-end demonstration in ReactJs with Bootstrap and Axios consuming back-end API in Django Rest Framework to search for Authors: 
 
-* [Clique aqui para acessar o respositório da API DRF / Click here to access the DRF API repository
-
-](https://github.com/antoniojr78/demo-apis-com-drf)  
+[API back-end Django Rest Framework](https://github.com/antoniojr78/demo-apis-com-drf)  
 
 1. Clone o repositório / Clone the repository: 
 ```bash
